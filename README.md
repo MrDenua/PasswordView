@@ -2,7 +2,7 @@
 
 ## Screenshot
 
-![screenshot][http://github.com/]
+![screenshot](https://raw.githubusercontent.com/MrDenua/PasswordView/master/screenshot/a.png)
 
 ## Usage
 
