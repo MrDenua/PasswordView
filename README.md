@@ -1,5 +1,7 @@
 ## PasswordView 一个输入密码及验证码的 View
 
+[PasswordView.java](https://github.com/MrDenua/PasswordView/blob/master/app/src/main/java/red/djh/passwordview/PasswordView.java)
+
 ## Screenshot
 
 ![screenshot](https://raw.githubusercontent.com/MrDenua/PasswordView/master/screenshot/a.png)
