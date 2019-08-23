@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PasswordView">
+        <attr name="backgroundColor" format="color" />
+        <attr name="length" format="integer" />
+        <attr name="textSize" format="dimension" />
+        <attr name="inputType" format="flags">
+            <flag name="worlds" value="0x01" />
+            <flag name="number" value="0x10" />
+        </attr>
+        <attr name="borderRadius" format="dimension" />
+        <attr name="maskSize" format="dimension" />
+        <attr name="maskColor" format="color" />
+        <attr name="borderWidth" format="dimension" />
+        <attr name="showPassword" format="boolean" />
+        <attr name="borderColor" format="color" />
+    </declare-styleable>
+
+</resources>

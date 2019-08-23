@@ -1,18 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <red.djh.passwordview.PasswordView
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="50dp"
+        app:maskColor="#f00"
+        app:borderColor="#ff0"
+        app:borderWidth="2dp"
+        app:borderRadius="6dp"
+        app:showPassword="false"
+        app:length="8"/>
 
-</android.support.constraint.ConstraintLayout>
+    <red.djh.passwordview.PasswordView
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="50dp"
+        android:background="#eee"
+        app:maskColor="#0ff"
+        app:borderColor="#ccc"
+        app:borderWidth="1dp"
+        app:borderRadius="6dp"
+        app:showPassword="true"
+        app:textSize="16sp"
+        app:length="6"/>
+
+    <red.djh.passwordview.PasswordView
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="50dp"
+        app:backgroundColor="#ccc"
+        app:maskColor="#00f"
+        app:borderColor="#0f0"
+        app:borderWidth="2dp"
+        app:borderRadius="10dp"
+        app:showPassword="false"
+        app:length="5"/>
+
+    <red.djh.passwordview.PasswordView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        app:maskColor="#222"
+        app:borderColor="#ccc"
+        app:borderWidth="2dp"
+        app:borderRadius="10dp"
+        app:showPassword="true"
+        app:textSize="16sp"
+        app:inputType="number|worlds"
+        app:length="6"/>
+
+</LinearLayout>
